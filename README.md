@@ -18,12 +18,12 @@ npm install
 
 Run all tests
 ```
-npm run codeceptjsjs
+npm run codeceptjs
 ```
 
 Run a test
 ```
-npm run codeceptjsjs tests/testing_challenges_test.js
+npm run codeceptjs tests/testing_challenges_test.js
 ```
 
 ---

@@ -4,7 +4,7 @@ const ja = require('json-assert')
 const assert = require('assert');
 
 class AllureHelper extends Helper {
-    async _finishTest2(suite) {
+    async _finishTest(suite) {
         const I = this.helpers.REST;
     
         // If project is not exist, create it

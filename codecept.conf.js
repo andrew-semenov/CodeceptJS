@@ -19,7 +19,7 @@ exports.config = {
     AllureHelper: {
       require: './helpers/AllureHelper.js',
       url: 'http://localhost:5050/allure-docker-service',
-      projectId: 'dev',
+      projectId: 'default',
       outputDir: './allure-results',      
     },
     REST: {
@@ -33,9 +33,9 @@ exports.config = {
   },
   name: 'CodeceptJSDemo',
   plugins: {
-    // allure: {
-    //     enabled: true,
-    //     outputDir: './allure-results',
-    // }
+    allure: {
+        enabled: true,
+        outputDir: './allure-results',
+    }
   }
 }
