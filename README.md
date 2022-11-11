@@ -44,3 +44,6 @@ In a browser, open the next URL
 ```
 http://localhost:5252/
 ```
+
+### As a result, you should see the corresponding page
+![example](example.png)
