@@ -1,7 +1,7 @@
-* [Important!](Important!)
+* [Important!](#Important!)
 * [Run tests locally](#Run-tests-locally)
 * [Run tests on Docker](#Run-tests-inside-the-docker-container)
-* [Check results of tests execution](Check-results-of-tests-execution)
+* [Check results of tests execution](#Check-results-of-tests-execution)
 
 # Important!
 First of all you need tu run the Allure reporter
